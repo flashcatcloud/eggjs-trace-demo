@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/flashcat/JavaScript/eggjs1/config/config.default.ts",
+  "middleware": "/Users/flashcat/JavaScript/eggjs1/config/config.default.ts",
+  "logger": {
+    "level": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
+    "consoleLevel": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
+    "dir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "env": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
+      "type": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
+    "protocolWhiteList": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "name": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "version": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "description": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "private": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "stop": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "dev": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "debug": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "test": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "cov": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "ci": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "autod": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "lint": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "lint-fix": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "clean": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@opentelemetry/api": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@opentelemetry/auto-instrumentations-node": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@opentelemetry/resources": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@opentelemetry/sdk-node": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@opentelemetry/semantic-conventions": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "crypto-js": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "cluster-client": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "moment": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "qs": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/lodash": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "autod": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "tslint-eslint-rules": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "url": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "license": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "strict": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "depth": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "logging": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "port": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
+}

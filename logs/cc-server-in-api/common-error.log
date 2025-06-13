@@ -1,0 +1,255 @@
+2025-06-12 15:47:35,752 ERROR 36397 [-/::1/-/38ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 36397
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:47:36,024 ERROR 36397 [-/::1/-/20ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 36397
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:48:22,323 ERROR 36619 [-/127.0.0.1/-/29ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 36619
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:48:51,570 ERROR 36619 [-/::1/-/6ms GET /health] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 36619
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:48:51,804 ERROR 36619 [-/::1/-/45ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 36619
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:13,750 ERROR 37063 [-/::1/-/35ms GET /health] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:14,041 ERROR 37063 [-/::1/-/35ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:17,431 ERROR 37063 [-/::1/-/1ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:17,612 ERROR 37063 [-/::1/-/11ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:22,064 ERROR 37063 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:50:29,927 ERROR 37063 [-/127.0.0.1/-/0ms GET /health] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37063
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:55:33,942 ERROR 37783 [-/::1/-/37ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37783
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:55:34,274 ERROR 37783 [-/::1/-/50ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37783
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 15:55:48,558 ERROR 37783 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 37783
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 16:00:34,926 ERROR 38151 [-/::1/-/29ms GET /users] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 38151
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 16:00:35,219 ERROR 38151 [-/::1/-/34ms POST /api/n9e/auth/login] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 38151
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-12 16:09:10,028 ERROR 39079 [-/127.0.0.1/-/31ms GET /] nodejs.TypeError: Cannot set property router of #<Object> which has only a getter
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/@eggjs/router/lib/router.js:175:18)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/flashcat/JavaScript/eggjs1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 39079
+hostname: kuaimaopaodeMBP.lan
+

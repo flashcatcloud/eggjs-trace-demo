@@ -1,0 +1,507 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true
+    },
+    "security": {
+      "domainWhiteList": [
+        "*"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/6y/5j8s4bkd4wq1n9zp9km30d600000gn/T/egg-multipart-tmp/cc-server-in-api",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/flashcat/JavaScript/eggjs1/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/flashcat/JavaScript/eggjs1/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "env": "local",
+    "name": "cc-server-in-api",
+    "keys": "<String len: 27>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "cc-server-in-api",
+      "version": "1.0.0",
+      "description": "cc-server-in 接口服务",
+      "private": true,
+      "egg": {
+        "typescript": true
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop",
+        "dev": "env OTEL_TRACES_EXPORTER=otlp OTEL_SERVICE_NAME=guguji10 OTEL_LOG_LEVEL=warn OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=http://10.99.1.105:4318/v1/traces egg-bin dev -r @opentelemetry/auto-instrumentations-node/register -r egg-ts-helper/register",
+        "debug": "egg-bin debug -r egg-ts-helper/register",
+        "test-local": "egg-bin test -r egg-ts-helper/register",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "cov": "egg-bin cov -r egg-ts-helper/register",
+        "tsc": "tsc -p tsconfig.json",
+        "ci": "npm run lint && npm run cov && npm run tsc",
+        "autod": "autod",
+        "lint": "tslint --project . -c tslint.json",
+        "lint-fix": "tslint --project . -c tslint.json --fix",
+        "clean": "tsc -b --clean"
+      },
+      "dependencies": {
+        "@opentelemetry/api": "^1.9.0",
+        "@opentelemetry/auto-instrumentations-node": "^0.60.0",
+        "@opentelemetry/resources": "^2.0.1",
+        "@opentelemetry/sdk-node": "^0.202.0",
+        "@opentelemetry/semantic-conventions": "^1.34.0",
+        "crypto-js": "3.3.0",
+        "egg": "2.19.0",
+        "egg-scripts": "2.11.0",
+        "egg-validate": "1.0.0",
+        "egg-logger": "2.9.1",
+        "cluster-client": "3.6.0",
+        "lodash": "4.17.11",
+        "moment": "2.24.0",
+        "qs": "6.5.3"
+      },
+      "devDependencies": {
+        "@types/lodash": "4.14.122",
+        "@types/mocha": "2.2.48",
+        "@types/node": "10.17.60",
+        "@types/supertest": "2.0.7",
+        "autod": "3.0.1",
+        "autod-egg": "1.1.0",
+        "egg-bin": "4.11.0",
+        "egg-ci": "1.11.0",
+        "egg-mock": "3.21.0",
+        "egg-ts-helper": "1.22.3",
+        "tslib": "1.9.0",
+        "tslint": "5.13.1",
+        "tslint-eslint-rules": "5.4.0",
+        "typescript": "3.8.3"
+      },
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "developer",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/flashcat/JavaScript/eggjs1",
+    "HOME": "/Users/flashcat",
+    "rundir": "/Users/flashcat/JavaScript/eggjs1/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      }
+    },
+    "logger": {
+      "dir": "/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "DEBUG",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "cc-server-in-api-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-security",
+      "version": "2.11.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-onerror",
+      "version": "2.4.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-watcher",
+      "version": "3.1.1",
+      "dependents": [
+        "development"
+      ]
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-schedule",
+      "version": "3.7.0",
+      "dependents": [
+        "logrotator"
+      ]
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart",
+      "version": "2.13.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator",
+      "version": "3.2.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-static",
+      "version": "2.3.1"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/plugin.js",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-view",
+      "version": "2.1.4"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/flashcat/JavaScript/eggjs1/config/plugin.ts",
+      "path": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg-validate",
+      "version": "1.0.0"
+    }
+  }
+}

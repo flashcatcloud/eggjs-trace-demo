@@ -1,0 +1,171 @@
+2025-06-12 15:47:06,057 INFO 36397 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 15:47:06,057 INFO 36397 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 15:47:06,057 INFO 36397 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 15:47:08,649 INFO 36396 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45771371ms at 2025-06-13 04:30:00.019
+2025-06-12 15:47:08,650 INFO 36396 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29571350ms at 2025-06-13 00:00:00.000
+2025-06-12 15:47:08,650 INFO 36396 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29572350ms at 2025-06-13 00:00:01.000
+2025-06-12 15:48:18,703 INFO 36612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45701321ms at 2025-06-13 04:30:00.023
+2025-06-12 15:48:18,703 INFO 36612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29501297ms at 2025-06-13 00:00:00.000
+2025-06-12 15:48:18,704 INFO 36612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29502297ms at 2025-06-13 00:00:01.001
+2025-06-12 15:48:18,427 INFO 36619 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 15:48:18,428 INFO 36619 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 15:48:18,428 INFO 36619 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 15:49:58,868 INFO 37063 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 15:49:58,868 INFO 37063 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 15:49:58,868 INFO 37063 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 15:50:01,656 INFO 37062 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45598368ms at 2025-06-13 04:30:00.023
+2025-06-12 15:50:01,657 INFO 37062 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29398343ms at 2025-06-13 00:00:00.000
+2025-06-12 15:50:01,657 INFO 37062 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29399343ms at 2025-06-13 00:00:01.000
+2025-06-12 15:55:29,725 INFO 37776 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45270299ms at 2025-06-13 04:30:00.023
+2025-06-12 15:55:29,726 INFO 37776 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29070274ms at 2025-06-13 00:00:00.000
+2025-06-12 15:55:29,726 INFO 37776 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29071274ms at 2025-06-13 00:00:01.000
+2025-06-12 15:55:29,448 INFO 37783 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 15:55:29,448 INFO 37783 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 15:55:29,448 INFO 37783 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:00:26,021 INFO 38149 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44974004ms at 2025-06-13 04:30:00.024
+2025-06-12 16:00:26,022 INFO 38149 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28773979ms at 2025-06-13 00:00:00.001
+2025-06-12 16:00:26,022 INFO 38149 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28774978ms at 2025-06-13 00:00:01.000
+2025-06-12 16:00:25,751 INFO 38151 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:00:25,751 INFO 38151 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:00:25,751 INFO 38151 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:13:14,862 INFO 39923 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44205140ms at 2025-06-13 04:30:00.002
+2025-06-12 16:13:14,862 INFO 39923 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28005138ms at 2025-06-13 00:00:00.000
+2025-06-12 16:13:14,862 INFO 39923 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28006138ms at 2025-06-13 00:00:01.000
+2025-06-12 16:13:14,763 INFO 39924 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:13:14,763 INFO 39924 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:13:14,763 INFO 39924 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:35:07,783 INFO 41103 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42892219ms at 2025-06-13 04:30:00.002
+2025-06-12 16:35:07,783 INFO 41103 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26692217ms at 2025-06-13 00:00:00.000
+2025-06-12 16:35:07,783 INFO 41103 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26693217ms at 2025-06-13 00:00:01.000
+2025-06-12 16:35:07,708 INFO 41106 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:35:07,709 INFO 41106 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:35:07,709 INFO 41106 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:41:16,699 INFO 41215 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:41:16,699 INFO 41215 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:41:16,700 INFO 41215 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:41:20,479 INFO 41225 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:41:20,479 INFO 41225 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:41:20,479 INFO 41225 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:44:36,808 INFO 41503 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42323194ms at 2025-06-13 04:30:00.002
+2025-06-12 16:44:36,808 INFO 41503 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26123192ms at 2025-06-13 00:00:00.000
+2025-06-12 16:44:36,808 INFO 41503 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26124192ms at 2025-06-13 00:00:01.000
+2025-06-12 16:44:36,742 INFO 41504 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:44:36,742 INFO 41504 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:44:36,742 INFO 41504 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:54:19,369 INFO 41740 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:54:19,369 INFO 41740 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:54:19,369 INFO 41740 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 16:57:37,298 INFO 41845 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41542704ms at 2025-06-13 04:30:00.002
+2025-06-12 16:57:37,298 INFO 41845 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25342702ms at 2025-06-13 00:00:00.000
+2025-06-12 16:57:37,298 INFO 41845 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25343702ms at 2025-06-13 00:00:01.000
+2025-06-12 16:57:37,221 INFO 41846 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 16:57:37,221 INFO 41846 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 16:57:37,221 INFO 41846 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:02:24,512 INFO 42295 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41255490ms at 2025-06-13 04:30:00.002
+2025-06-12 17:02:24,512 INFO 42295 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25055488ms at 2025-06-13 00:00:00.000
+2025-06-12 17:02:24,512 INFO 42295 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25056488ms at 2025-06-13 00:00:01.000
+2025-06-12 17:02:24,431 INFO 42296 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:02:24,431 INFO 42296 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:02:24,431 INFO 42296 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:03:00,728 INFO 42333 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41219273ms at 2025-06-13 04:30:00.001
+2025-06-12 17:03:00,729 INFO 42333 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25019272ms at 2025-06-13 00:00:00.001
+2025-06-12 17:03:00,729 INFO 42333 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25020271ms at 2025-06-13 00:00:01.000
+2025-06-12 17:03:00,657 INFO 42336 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:03:00,657 INFO 42336 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:03:00,657 INFO 42336 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:03:32,963 INFO 42360 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41187039ms at 2025-06-13 04:30:00.002
+2025-06-12 17:03:32,963 INFO 42360 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24987037ms at 2025-06-13 00:00:00.000
+2025-06-12 17:03:32,964 INFO 42360 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24988037ms at 2025-06-13 00:00:01.001
+2025-06-12 17:03:32,893 INFO 42363 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:03:32,893 INFO 42363 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:03:32,893 INFO 42363 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:08:33,698 INFO 42497 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40886304ms at 2025-06-13 04:30:00.002
+2025-06-12 17:08:33,698 INFO 42497 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24686302ms at 2025-06-13 00:00:00.000
+2025-06-12 17:08:33,698 INFO 42497 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24687302ms at 2025-06-13 00:00:01.000
+2025-06-12 17:08:33,608 INFO 42500 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:08:33,608 INFO 42500 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:08:33,608 INFO 42500 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:08:57,221 INFO 42544 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40862780ms at 2025-06-13 04:30:00.001
+2025-06-12 17:08:57,221 INFO 42544 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24662779ms at 2025-06-13 00:00:00.000
+2025-06-12 17:08:57,221 INFO 42544 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24663779ms at 2025-06-13 00:00:01.000
+2025-06-12 17:08:57,132 INFO 42547 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:08:57,132 INFO 42547 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:08:57,132 INFO 42547 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:09:59,172 INFO 42612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40800830ms at 2025-06-13 04:30:00.002
+2025-06-12 17:09:59,172 INFO 42612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24600828ms at 2025-06-13 00:00:00.000
+2025-06-12 17:09:59,172 INFO 42612 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24601828ms at 2025-06-13 00:00:01.000
+2025-06-12 17:09:59,092 INFO 42615 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:09:59,092 INFO 42615 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:09:59,092 INFO 42615 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:45:36,269 INFO 44730 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:45:36,269 INFO 44730 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:45:36,269 INFO 44730 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 17:45:36,359 INFO 44727 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38663643ms at 2025-06-13 04:30:00.002
+2025-06-12 17:45:36,359 INFO 44727 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22463641ms at 2025-06-13 00:00:00.000
+2025-06-12 17:45:36,359 INFO 44727 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22464641ms at 2025-06-13 00:00:01.000
+2025-06-12 17:45:52,781 INFO 44766 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38647221ms at 2025-06-13 04:30:00.002
+2025-06-12 17:45:52,781 INFO 44766 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22447219ms at 2025-06-13 00:00:00.000
+2025-06-12 17:45:52,781 INFO 44766 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22448219ms at 2025-06-13 00:00:01.000
+2025-06-12 17:45:52,696 INFO 44769 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 17:45:52,696 INFO 44769 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 17:45:52,696 INFO 44769 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:02:06,107 INFO 45392 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37673895ms at 2025-06-13 04:30:00.002
+2025-06-12 18:02:06,107 INFO 45392 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21473893ms at 2025-06-13 00:00:00.000
+2025-06-12 18:02:06,107 INFO 45392 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21474893ms at 2025-06-13 00:00:01.000
+2025-06-12 18:02:06,020 INFO 45395 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:02:06,020 INFO 45395 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:02:06,020 INFO 45395 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:10:07,852 INFO 45998 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:10:07,852 INFO 45998 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:10:07,852 INFO 45998 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:10:08,718 INFO 45995 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37191284ms at 2025-06-13 04:30:00.002
+2025-06-12 18:10:08,718 INFO 45995 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20991282ms at 2025-06-13 00:00:00.000
+2025-06-12 18:10:08,718 INFO 45995 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20992282ms at 2025-06-13 00:00:01.000
+2025-06-12 18:11:43,576 INFO 46029 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:11:43,576 INFO 46029 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:11:43,576 INFO 46029 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:12:22,490 INFO 46082 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:12:22,490 INFO 46082 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:12:22,490 INFO 46082 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:12:23,311 INFO 46079 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37056691ms at 2025-06-13 04:30:00.002
+2025-06-12 18:12:23,311 INFO 46079 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20856689ms at 2025-06-13 00:00:00.000
+2025-06-12 18:12:23,311 INFO 46079 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20857689ms at 2025-06-13 00:00:01.000
+2025-06-12 18:14:19,550 INFO 46135 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:14:19,550 INFO 46135 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:14:19,551 INFO 46135 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:14:26,105 INFO 46166 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 18:14:26,105 INFO 46166 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 18:14:26,105 INFO 46166 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-12 18:14:26,184 INFO 46161 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36933818ms at 2025-06-13 04:30:00.002
+2025-06-12 18:14:26,184 INFO 46161 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20733816ms at 2025-06-13 00:00:00.000
+2025-06-12 18:14:26,184 INFO 46161 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20734816ms at 2025-06-13 00:00:01.000
+2025-06-12 19:20:07,195 INFO 46924 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32992807ms at 2025-06-13 04:30:00.002
+2025-06-12 19:20:07,195 INFO 46924 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16792805ms at 2025-06-13 00:00:00.000
+2025-06-12 19:20:07,195 INFO 46924 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16793805ms at 2025-06-13 00:00:01.000
+2025-06-12 19:20:07,109 INFO 46927 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-12 19:20:07,109 INFO 46927 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-12 19:20:07,109 INFO 46927 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-13 10:12:18,449 INFO 49233 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-13 10:12:18,449 INFO 49233 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-13 10:12:18,449 INFO 49233 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-13 10:12:18,546 INFO 49230 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65861456ms at 2025-06-14 04:30:00.002
+2025-06-13 10:12:18,546 INFO 49230 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49661454ms at 2025-06-14 00:00:00.000
+2025-06-13 10:12:18,546 INFO 49230 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49662454ms at 2025-06-14 00:00:01.000
+2025-06-13 10:35:47,011 INFO 49884 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-13 10:35:47,011 INFO 49884 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-13 10:35:47,011 INFO 49884 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-13 10:35:47,290 INFO 49882 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64452735ms at 2025-06-14 04:30:00.024
+2025-06-13 10:35:47,291 INFO 49882 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48252710ms at 2025-06-14 00:00:00.001
+2025-06-13 10:35:47,291 INFO 49882 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48253709ms at 2025-06-14 00:00:01.000
+2025-06-13 10:38:46,749 INFO 50110 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64273253ms at 2025-06-14 04:30:00.002
+2025-06-13 10:38:46,749 INFO 50110 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48073251ms at 2025-06-14 00:00:00.000
+2025-06-13 10:38:46,749 INFO 50110 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48074251ms at 2025-06-14 00:00:01.000
+2025-06-13 10:38:46,668 INFO 50115 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-13 10:38:46,668 INFO 50115 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-13 10:38:46,668 INFO 50115 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2025-06-13 10:39:51,088 INFO 50151 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64208914ms at 2025-06-14 04:30:00.002
+2025-06-13 10:39:51,088 INFO 50151 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48008912ms at 2025-06-14 00:00:00.000
+2025-06-13 10:39:51,088 INFO 50151 [Timer] /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48009912ms at 2025-06-14 00:00:01.000
+2025-06-13 10:39:51,008 INFO 50154 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2025-06-13 10:39:51,008 INFO 50154 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2025-06-13 10:39:51,008 INFO 50154 [egg-schedule]: register schedule /Users/flashcat/JavaScript/eggjs1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
