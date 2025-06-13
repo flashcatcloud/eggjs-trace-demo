@@ -1,6 +1,5 @@
 import { Application } from 'egg';
-// import '@opentelemetry/auto-instrumentations-node/register';
-// import './instrumentation';
+import './instrumentation';
 export default class AppBootHook {
   private readonly app: Application;
 

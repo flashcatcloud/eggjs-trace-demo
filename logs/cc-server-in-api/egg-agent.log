@@ -414,3 +414,93 @@
 2025-06-13 10:39:50,279 INFO 50151 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
 2025-06-13 10:39:50,279 INFO 50151 [egg-watcher:agent] watcher start success
 2025-06-13 10:39:50,292 INFO 50151 [egg:core] dump config after ready, 2ms
+2025-06-13 10:58:34,818 INFO 52002 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 10:58:34,913 INFO 52002 [egg:core] dump config after load, 4ms
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 10:58:34,948 INFO 52002 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 10:58:34,949 INFO 52002 [egg-watcher:agent] watcher start success
+2025-06-13 10:58:34,963 INFO 52002 [egg:core] dump config after ready, 4ms
+2025-06-13 10:59:02,750 INFO 52158 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 10:59:02,847 INFO 52158 [egg:core] dump config after load, 3ms
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 10:59:02,886 INFO 52158 [egg-watcher:agent] watcher start success
+2025-06-13 10:59:02,894 INFO 52158 [egg:core] dump config after ready, 3ms
+2025-06-13 10:59:32,919 INFO 52297 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 10:59:33,009 INFO 52297 [egg:core] dump config after load, 3ms
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 10:59:33,041 INFO 52297 [egg-watcher:agent] watcher start success
+2025-06-13 10:59:33,051 INFO 52297 [egg:core] dump config after ready, 3ms
+2025-06-13 11:03:07,763 INFO 53001 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:03:07,858 INFO 53001 [egg:core] dump config after load, 3ms
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:03:07,896 INFO 53001 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:03:07,897 INFO 53001 [egg-watcher:agent] watcher start success
+2025-06-13 11:03:07,904 INFO 53001 [egg:core] dump config after ready, 3ms
+2025-06-13 11:08:24,677 INFO 53148 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:08:24,783 INFO 53148 [egg:core] dump config after load, 4ms
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:08:24,818 INFO 53148 [egg-watcher:agent] watcher start success
+2025-06-13 11:08:24,828 INFO 53148 [egg:core] dump config after ready, 3ms
+2025-06-13 11:14:01,295 INFO 53320 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:14:01,388 INFO 53320 [egg:core] dump config after load, 3ms
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:14:01,423 INFO 53320 [egg-watcher:agent] watcher start success
+2025-06-13 11:14:01,433 INFO 53320 [egg:core] dump config after ready, 3ms
+2025-06-13 11:15:09,462 INFO 53416 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:15:09,559 INFO 53416 [egg:core] dump config after load, 3ms
+2025-06-13 11:15:09,593 INFO 53416 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:15:09,593 INFO 53416 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:15:09,594 INFO 53416 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:15:09,594 INFO 53416 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:15:09,594 INFO 53416 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:15:09,594 INFO 53416 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:15:09,594 INFO 53416 [egg-watcher:agent] watcher start success
+2025-06-13 11:15:09,604 INFO 53416 [egg:core] dump config after ready, 3ms
+2025-06-13 11:18:12,819 INFO 53498 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:18:12,912 INFO 53498 [egg:core] dump config after load, 4ms
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:18:12,945 INFO 53498 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:18:12,946 INFO 53498 [egg-watcher:agent] watcher start success
+2025-06-13 11:18:12,956 INFO 53498 [egg:core] dump config after ready, 3ms
+2025-06-13 11:21:12,100 INFO 53672 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2025-06-13 11:21:12,195 INFO 53672 [egg:core] dump config after load, 4ms
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: ["/Users/flashcat/JavaScript/eggjs1/app","/Users/flashcat/JavaScript/eggjs1/config","/Users/flashcat/JavaScript/eggjs1/mocks","/Users/flashcat/JavaScript/eggjs1/mocks_proxy","/Users/flashcat/JavaScript/eggjs1/app.js"]
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app"
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/config"
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks"
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/mocks_proxy"
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher] Start watching: "/Users/flashcat/JavaScript/eggjs1/app.js"
+2025-06-13 11:21:12,229 INFO 53672 [egg-watcher:agent] watcher start success
+2025-06-13 11:21:12,239 INFO 53672 [egg:core] dump config after ready, 3ms
