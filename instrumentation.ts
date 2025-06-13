@@ -7,7 +7,7 @@ const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc')
 const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
 // getNodeAutoInstrumentations 内置大部分常见插件的追踪能力， 但是未支持redis，如果我们代码中有redis的调用，需要显示的引用并初始化redis追踪
 const { RedisInstrumentation } = require('@opentelemetry/instrumentation-redis');
-//const { MysqlInstrumentation } = require('@opentelemetry/instrumentation-mysql');
+const { MySQLInstrumentation } = require('@opentelemetry/instrumentation-mysql');
 
 // 声明资源属性：指定 service.name
 const resource = new Resource({
@@ -27,7 +27,7 @@ const sdk = new NodeSDK({
   instrumentations: [
     getNodeAutoInstrumentations(),
     new RedisInstrumentation(),
-    //new MysqlInstrumentation()
+    new MySQLInstrumentation()
   ]
 });
 

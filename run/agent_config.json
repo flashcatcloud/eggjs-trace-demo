@@ -185,7 +185,7 @@
       "scripts": {
         "start": "egg-scripts start --daemon",
         "stop": "egg-scripts stop",
-        "dev": "env OTEL_LOG_LEVEL=ALL egg-bin dev -r egg-ts-helper/register",
+        "dev": "egg-bin dev -r egg-ts-helper/register",
         "debug": "egg-bin debug -r egg-ts-helper/register",
         "test-local": "egg-bin test -r egg-ts-helper/register",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -213,6 +213,8 @@
         "egg-validate": "1.0.0",
         "lodash": "4.17.11",
         "moment": "2.24.0",
+        "mysql": "^2.18.1",
+        "request": "^2.88.2",
         "qs": "6.5.3"
       },
       "devDependencies": {

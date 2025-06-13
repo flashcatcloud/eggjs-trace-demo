@@ -214,6 +214,8 @@
       "egg-validate": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
       "lodash": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
       "moment": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
+      "request": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
       "qs": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {

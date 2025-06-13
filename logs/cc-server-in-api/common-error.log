@@ -253,3 +253,106 @@ hostname: kuaimaopaodeMBP.lan
 pid: 39079
 hostname: kuaimaopaodeMBP.lan
 
+2025-06-13 12:03:25,270 ERROR 57421 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 57421
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:03:27,984 ERROR 57421 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 57421
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:03:49,708 ERROR 57421 [-/::1/-/252ms GET /api/users] nodejs.Error: Invalid protocol: 10.99.1.223:
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:458:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at Object.default_1 [as default] (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at UserController.index (/Users/flashcat/JavaScript/eggjs1/app/controller/user.ts:51:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 57421
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:04:06,312 ERROR 57471 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 57471
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:04:09,102 ERROR 57471 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 57471
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:04:21,933 ERROR 57531 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 57531
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-13 12:04:24,515 ERROR 57531 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 57531
+hostname: kuaimaopaodeMBP.lan
+
