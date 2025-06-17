@@ -663,3 +663,479 @@ hostname: kuaimaopaodeMBP.lan
 
 2025-06-13 12:04:24,614 INFO 57531 [egg-watcher:application] watcher start success
 2025-06-13 12:04:24,630 INFO 57531 [egg:core] dump config after ready, 7ms
+2025-06-17 17:45:57,810 INFO 32086 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2025-06-17 17:45:57,898 INFO 32086 [egg-multipart] stream mode enable
+2025-06-17 17:45:58,408 INFO 32086 [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+2025-06-17 17:45:58,419 INFO 32086 [egg-security] use methodnoallow middleware
+2025-06-17 17:45:58,420 INFO 32086 [egg-security] use noopen middleware
+2025-06-17 17:45:58,420 INFO 32086 [egg-security] use nosniff middleware
+2025-06-17 17:45:58,421 INFO 32086 [egg-security] use xssProtection middleware
+2025-06-17 17:45:58,421 INFO 32086 [egg-security] use xframe middleware
+2025-06-17 17:45:58,422 INFO 32086 [egg-security] use dta middleware
+2025-06-17 17:45:58,422 INFO 32086 [egg-security] compose 6 middlewares into one security middleware
+2025-06-17 17:45:58,534 INFO 32086 [egg:core] dump config after load, 23ms
+2025-06-17 17:45:58,556 ERROR 32086 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 32086
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:45:58,641 INFO 32086 [egg-watcher:application] watcher start success
+2025-06-17 17:45:58,655 INFO 32086 [egg:core] dump config after ready, 6ms
+2025-06-17 17:46:59,593 INFO 32236 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2025-06-17 17:46:59,723 INFO 32236 [egg-multipart] stream mode enable
+2025-06-17 17:47:00,163 INFO 32236 [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+2025-06-17 17:47:00,168 INFO 32236 [egg-security] use methodnoallow middleware
+2025-06-17 17:47:00,169 INFO 32236 [egg-security] use noopen middleware
+2025-06-17 17:47:00,170 INFO 32236 [egg-security] use nosniff middleware
+2025-06-17 17:47:00,171 INFO 32236 [egg-security] use xssProtection middleware
+2025-06-17 17:47:00,171 INFO 32236 [egg-security] use xframe middleware
+2025-06-17 17:47:00,172 INFO 32236 [egg-security] use dta middleware
+2025-06-17 17:47:00,172 INFO 32236 [egg-security] compose 6 middlewares into one security middleware
+2025-06-17 17:47:00,212 INFO 32236 [egg:core] dump config after load, 24ms
+2025-06-17 17:47:00,242 ERROR 32236 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 32236
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:47:00,345 INFO 32236 [egg-watcher:application] watcher start success
+2025-06-17 17:47:00,360 INFO 32236 [egg:core] dump config after ready, 7ms
+2025-06-17 17:49:36,865 INFO 32376 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2025-06-17 17:49:36,955 INFO 32376 [egg-multipart] stream mode enable
+2025-06-17 17:49:37,360 INFO 32376 [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+2025-06-17 17:49:37,365 INFO 32376 [egg-security] use methodnoallow middleware
+2025-06-17 17:49:37,366 INFO 32376 [egg-security] use noopen middleware
+2025-06-17 17:49:37,367 INFO 32376 [egg-security] use nosniff middleware
+2025-06-17 17:49:37,367 INFO 32376 [egg-security] use xssProtection middleware
+2025-06-17 17:49:37,368 INFO 32376 [egg-security] use xframe middleware
+2025-06-17 17:49:37,368 INFO 32376 [egg-security] use dta middleware
+2025-06-17 17:49:37,368 INFO 32376 [egg-security] compose 6 middlewares into one security middleware
+2025-06-17 17:49:37,406 INFO 32376 [egg:core] dump config after load, 25ms
+2025-06-17 17:49:37,429 ERROR 32376 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 32376
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:49:37,531 INFO 32376 [egg-watcher:application] watcher start success
+2025-06-17 17:49:37,546 INFO 32376 [egg:core] dump config after ready, 8ms
+2025-06-17 18:18:58,344 INFO 33006 [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2025-06-17 18:18:58,424 INFO 33006 [egg-multipart] stream mode enable
+2025-06-17 18:18:58,915 INFO 33006 [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+2025-06-17 18:18:58,920 INFO 33006 [egg-security] use methodnoallow middleware
+2025-06-17 18:18:58,921 INFO 33006 [egg-security] use noopen middleware
+2025-06-17 18:18:58,922 INFO 33006 [egg-security] use nosniff middleware
+2025-06-17 18:18:58,922 INFO 33006 [egg-security] use xssProtection middleware
+2025-06-17 18:18:58,923 INFO 33006 [egg-security] use xframe middleware
+2025-06-17 18:18:58,924 INFO 33006 [egg-security] use dta middleware
+2025-06-17 18:18:58,924 INFO 33006 [egg-security] compose 6 middlewares into one security middleware
+2025-06-17 18:18:58,994 INFO 33006 [egg:core] dump config after load, 26ms
+2025-06-17 18:18:59,018 ERROR 33006 nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 33006
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 18:18:59,120 INFO 33006 [egg-watcher:application] watcher start success
+2025-06-17 18:18:59,134 INFO 33006 [egg:core] dump config after ready, 7ms
+[2025-06-17 18:21:30,240] INFO 33077 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 18:21:30,328] INFO 33077 - [egg-multipart] stream mode enable
+[2025-06-17 18:21:30,960] INFO 33077 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 18:21:30,965] INFO 33077 - [egg-security] use methodnoallow middleware
+[2025-06-17 18:21:30,966] INFO 33077 - [egg-security] use noopen middleware
+[2025-06-17 18:21:30,967] INFO 33077 - [egg-security] use nosniff middleware
+[2025-06-17 18:21:30,968] INFO 33077 - [egg-security] use xssProtection middleware
+[2025-06-17 18:21:30,968] INFO 33077 - [egg-security] use xframe middleware
+[2025-06-17 18:21:30,969] INFO 33077 - [egg-security] use dta middleware
+[2025-06-17 18:21:30,969] INFO 33077 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 18:21:31,017] INFO 33077 - [egg:core] dump config after load, 27ms
+[2025-06-17 18:21:31,039] ERROR 33077 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 33077
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 18:21:31,114] INFO 33077 - [egg-watcher:application] watcher start success
+[2025-06-17 18:21:31,132] INFO 33077 - [egg:core] dump config after ready, 6ms
+[2025-06-17 18:23:27,770] INFO 33296 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 18:23:27,894] INFO 33296 - [egg-multipart] stream mode enable
+[2025-06-17 18:23:30,784] INFO 33296 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 18:23:30,791] INFO 33296 - [egg-security] use methodnoallow middleware
+[2025-06-17 18:23:30,792] INFO 33296 - [egg-security] use noopen middleware
+[2025-06-17 18:23:30,793] INFO 33296 - [egg-security] use nosniff middleware
+[2025-06-17 18:23:30,794] INFO 33296 - [egg-security] use xssProtection middleware
+[2025-06-17 18:23:30,794] INFO 33296 - [egg-security] use xframe middleware
+[2025-06-17 18:23:30,795] INFO 33296 - [egg-security] use dta middleware
+[2025-06-17 18:23:30,795] INFO 33296 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 18:23:30,906] INFO 33296 - [egg:core] dump config after load, 25ms
+[2025-06-17 18:23:30,927] ERROR 33296 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 33296
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 18:23:31,054] INFO 33296 - [egg-watcher:application] watcher start success
+[2025-06-17 18:23:31,068] INFO 33296 - [egg:core] dump config after ready, 7ms
+[2025-06-17 18:25:57,195] INFO 33471 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 18:25:57,279] INFO 33471 - [egg-multipart] stream mode enable
+[2025-06-17 18:25:57,721] INFO 33471 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 18:25:57,724] INFO 33471 - [egg-security] use methodnoallow middleware
+[2025-06-17 18:25:57,725] INFO 33471 - [egg-security] use noopen middleware
+[2025-06-17 18:25:57,726] INFO 33471 - [egg-security] use nosniff middleware
+[2025-06-17 18:25:57,726] INFO 33471 - [egg-security] use xssProtection middleware
+[2025-06-17 18:25:57,727] INFO 33471 - [egg-security] use xframe middleware
+[2025-06-17 18:25:57,727] INFO 33471 - [egg-security] use dta middleware
+[2025-06-17 18:25:57,727] INFO 33471 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 18:25:57,792] INFO 33471 - [egg:core] dump config after load, 24ms
+[2025-06-17 18:25:57,816] ERROR 33471 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 33471
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 18:25:57,888] INFO 33471 - [egg-watcher:application] watcher start success
+[2025-06-17 18:25:57,907] INFO 33471 - [egg:core] dump config after ready, 8ms
+[2025-06-17 19:11:20,396] INFO 33987 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:11:20,538] INFO 33987 - [egg-multipart] stream mode enable
+[2025-06-17 19:11:23,538] INFO 33987 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:11:23,545] INFO 33987 - [egg-security] use methodnoallow middleware
+[2025-06-17 19:11:23,546] INFO 33987 - [egg-security] use noopen middleware
+[2025-06-17 19:11:23,547] INFO 33987 - [egg-security] use nosniff middleware
+[2025-06-17 19:11:23,547] INFO 33987 - [egg-security] use xssProtection middleware
+[2025-06-17 19:11:23,548] INFO 33987 - [egg-security] use xframe middleware
+[2025-06-17 19:11:23,548] INFO 33987 - [egg-security] use dta middleware
+[2025-06-17 19:11:23,549] INFO 33987 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:11:23,591] INFO 33987 - [egg:core] dump config after load, 24ms
+[2025-06-17 19:11:23,613] ERROR 33987 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 33987
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:11:23,685] INFO 33987 - [egg-watcher:application] watcher start success
+[2025-06-17 19:11:23,703] INFO 33987 - [egg:core] dump config after ready, 6ms
+[2025-06-17 19:13:32,288] INFO 34092 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:13:32,426] INFO 34092 - [egg-multipart] stream mode enable
+[2025-06-17 19:13:35,184] INFO 34092 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:13:35,191] INFO 34092 - [egg-security] use methodnoallow middleware
+[2025-06-17 19:13:35,192] INFO 34092 - [egg-security] use noopen middleware
+[2025-06-17 19:13:35,192] INFO 34092 - [egg-security] use nosniff middleware
+[2025-06-17 19:13:35,193] INFO 34092 - [egg-security] use xssProtection middleware
+[2025-06-17 19:13:35,193] INFO 34092 - [egg-security] use xframe middleware
+[2025-06-17 19:13:35,194] INFO 34092 - [egg-security] use dta middleware
+[2025-06-17 19:13:35,194] INFO 34092 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:13:35,237] INFO 34092 - [egg:core] dump config after load, 23ms
+[2025-06-17 19:13:35,259] ERROR 34092 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 34092
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:13:35,333] INFO 34092 - [egg-watcher:application] watcher start success
+[2025-06-17 19:13:35,352] INFO 34092 - [egg:core] dump config after ready, 8ms
+[2025-06-17 19:13:38,198] INFO 34103 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:13:38,331] INFO 34103 - [egg-multipart] stream mode enable
+[2025-06-17 19:13:38,729] INFO 34103 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:13:38,734] INFO 34103 - [egg-security] use methodnoallow middleware
+[2025-06-17 19:13:38,734] INFO 34103 - [egg-security] use noopen middleware
+[2025-06-17 19:13:38,737] INFO 34103 - [egg-security] use nosniff middleware
+[2025-06-17 19:13:38,738] INFO 34103 - [egg-security] use xssProtection middleware
+[2025-06-17 19:13:38,738] INFO 34103 - [egg-security] use xframe middleware
+[2025-06-17 19:13:38,739] INFO 34103 - [egg-security] use dta middleware
+[2025-06-17 19:13:38,739] INFO 34103 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:13:38,780] INFO 34103 - [egg:core] dump config after load, 26ms
+[2025-06-17 19:13:38,808] ERROR 34103 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 34103
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:13:38,864] INFO 34103 - [egg-watcher:application] watcher start success
+[2025-06-17 19:13:38,884] INFO 34103 - [egg:core] dump config after ready, 7ms
+[2025-06-17 19:14:26,244] INFO 34159 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:14:26,386] INFO 34159 - [egg-multipart] stream mode enable
+[2025-06-17 19:14:26,852] INFO 34159 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:14:26,857] INFO 34159 - [egg-security] use methodnoallow middleware
+[2025-06-17 19:14:26,858] INFO 34159 - [egg-security] use noopen middleware
+[2025-06-17 19:14:26,859] INFO 34159 - [egg-security] use nosniff middleware
+[2025-06-17 19:14:26,861] INFO 34159 - [egg-security] use xssProtection middleware
+[2025-06-17 19:14:26,861] INFO 34159 - [egg-security] use xframe middleware
+[2025-06-17 19:14:26,862] INFO 34159 - [egg-security] use dta middleware
+[2025-06-17 19:14:26,862] INFO 34159 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:14:26,903] INFO 34159 - [egg:core] dump config after load, 25ms
+[2025-06-17 19:14:26,931] ERROR 34159 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 34159
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:14:27,036] INFO 34159 - [egg-watcher:application] watcher start success
+[2025-06-17 19:14:27,051] INFO 34159 - [egg:core] dump config after ready, 7ms
+[2025-06-17 19:51:06,554] INFO 35418 - [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:51:06,652] INFO 35418 - [egg-multipart] stream mode enable
+[2025-06-17 19:51:07,101] INFO 35418 - [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:51:07,107] INFO 35418 - [egg-security] use methodnoallow middleware
+[2025-06-17 19:51:07,108] INFO 35418 - [egg-security] use noopen middleware
+[2025-06-17 19:51:07,109] INFO 35418 - [egg-security] use nosniff middleware
+[2025-06-17 19:51:07,110] INFO 35418 - [egg-security] use xssProtection middleware
+[2025-06-17 19:51:07,110] INFO 35418 - [egg-security] use xframe middleware
+[2025-06-17 19:51:07,112] INFO 35418 - [egg-security] use dta middleware
+[2025-06-17 19:51:07,112] INFO 35418 - [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:51:07,156] INFO 35418 - [egg:core] dump config after load, 28ms
+[2025-06-17 19:51:07,185] ERROR 35418 - nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35418
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:51:07,288] INFO 35418 - [egg-watcher:application] watcher start success
+[2025-06-17 19:51:07,304] INFO 35418 - [egg:core] dump config after ready, 8ms
+[2025-06-17 19:55:29,232] INFO 35620   [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:55:29,330] INFO 35620   [egg-multipart] stream mode enable
+[2025-06-17 19:55:29,730] INFO 35620   [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:55:29,734] INFO 35620   [egg-security] use methodnoallow middleware
+[2025-06-17 19:55:29,735] INFO 35620   [egg-security] use noopen middleware
+[2025-06-17 19:55:29,736] INFO 35620   [egg-security] use nosniff middleware
+[2025-06-17 19:55:29,737] INFO 35620   [egg-security] use xssProtection middleware
+[2025-06-17 19:55:29,737] INFO 35620   [egg-security] use xframe middleware
+[2025-06-17 19:55:29,738] INFO 35620   [egg-security] use dta middleware
+[2025-06-17 19:55:29,738] INFO 35620   [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:55:29,780] INFO 35620   [egg:core] dump config after load, 27ms
+[2025-06-17 19:55:29,803] ERROR 35620   nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35620
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:55:29,858] INFO 35620   [egg-watcher:application] watcher start success
+[2025-06-17 19:55:29,875] INFO 35620   [egg:core] dump config after ready, 9ms
+[2025-06-17 19:59:51,846] INFO 35742   [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 19:59:51,938] INFO 35742   [egg-multipart] stream mode enable
+[2025-06-17 19:59:52,399] INFO 35742   [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 19:59:52,411] INFO 35742   [egg-security] use methodnoallow middleware
+[2025-06-17 19:59:52,412] INFO 35742   [egg-security] use noopen middleware
+[2025-06-17 19:59:52,414] INFO 35742   [egg-security] use nosniff middleware
+[2025-06-17 19:59:52,414] INFO 35742   [egg-security] use xssProtection middleware
+[2025-06-17 19:59:52,415] INFO 35742   [egg-security] use xframe middleware
+[2025-06-17 19:59:52,416] INFO 35742   [egg-security] use dta middleware
+[2025-06-17 19:59:52,416] INFO 35742   [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 19:59:52,494] INFO 35742   [egg:core] dump config after load, 41ms
+[2025-06-17 19:59:52,522] ERROR 35742   nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35742
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 19:59:52,591] INFO 35742   [egg-watcher:application] watcher start success
+[2025-06-17 19:59:52,613] INFO 35742   [egg:core] dump config after ready, 7ms
+[2025-06-17 20:00:10,884] INFO 35777   [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 20:00:11,029] INFO 35777   [egg-multipart] stream mode enable
+[2025-06-17 20:00:11,523] INFO 35777   [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 20:00:11,529] INFO 35777   [egg-security] use methodnoallow middleware
+[2025-06-17 20:00:11,530] INFO 35777   [egg-security] use noopen middleware
+[2025-06-17 20:00:11,530] INFO 35777   [egg-security] use nosniff middleware
+[2025-06-17 20:00:11,531] INFO 35777   [egg-security] use xssProtection middleware
+[2025-06-17 20:00:11,531] INFO 35777   [egg-security] use xframe middleware
+[2025-06-17 20:00:11,532] INFO 35777   [egg-security] use dta middleware
+[2025-06-17 20:00:11,532] INFO 35777   [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 20:00:11,571] INFO 35777   [egg:core] dump config after load, 27ms
+[2025-06-17 20:00:11,632] ERROR 35777   nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35777
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 20:00:11,675] INFO 35777   [egg-watcher:application] watcher start success
+[2025-06-17 20:00:11,695] INFO 35777   [egg:core] dump config after ready, 7ms
+[2025-06-17 20:00:17,536] INFO 35787   [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 20:00:17,625] INFO 35787   [egg-multipart] stream mode enable
+[2025-06-17 20:00:17,982] INFO 35787   [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 20:00:17,987] INFO 35787   [egg-security] use methodnoallow middleware
+[2025-06-17 20:00:17,988] INFO 35787   [egg-security] use noopen middleware
+[2025-06-17 20:00:17,990] INFO 35787   [egg-security] use nosniff middleware
+[2025-06-17 20:00:17,992] INFO 35787   [egg-security] use xssProtection middleware
+[2025-06-17 20:00:17,992] INFO 35787   [egg-security] use xframe middleware
+[2025-06-17 20:00:17,993] INFO 35787   [egg-security] use dta middleware
+[2025-06-17 20:00:17,993] INFO 35787   [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 20:00:18,032] INFO 35787   [egg:core] dump config after load, 25ms
+[2025-06-17 20:00:18,054] ERROR 35787   nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35787
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 20:00:18,112] INFO 35787   [egg-watcher:application] watcher start success
+[2025-06-17 20:00:18,132] INFO 35787   [egg:core] dump config after ready, 7ms
+[2025-06-17 20:00:39,816] INFO 35876   [egg:logger] init all loggers with options: {"dir":"/Users/flashcat/JavaScript/eggjs1/logs/cc-server-in-api","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cc-server-in-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+[2025-06-17 20:00:40,011] INFO 35876   [egg-multipart] stream mode enable
+[2025-06-17 20:00:43,151] INFO 35876   [egg-static] starting static serve /public/ -> /Users/flashcat/JavaScript/eggjs1/app/public
+[2025-06-17 20:00:43,159] INFO 35876   [egg-security] use methodnoallow middleware
+[2025-06-17 20:00:43,159] INFO 35876   [egg-security] use noopen middleware
+[2025-06-17 20:00:43,160] INFO 35876   [egg-security] use nosniff middleware
+[2025-06-17 20:00:43,161] INFO 35876   [egg-security] use xssProtection middleware
+[2025-06-17 20:00:43,161] INFO 35876   [egg-security] use xframe middleware
+[2025-06-17 20:00:43,162] INFO 35876   [egg-security] use dta middleware
+[2025-06-17 20:00:43,162] INFO 35876   [egg-security] compose 6 middlewares into one security middleware
+[2025-06-17 20:00:43,208] INFO 35876   [egg:core] dump config after load, 26ms
+[2025-06-17 20:00:43,231] ERROR 35876   nodejs.unhandledRejectionError: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+name: "unhandledRejectionError"
+pid: 35876
+hostname: kuaimaopaodeMBP.lan
+
+[2025-06-17 20:00:43,305] INFO 35876   [egg-watcher:application] watcher start success
+[2025-06-17 20:00:43,324] INFO 35876   [egg:core] dump config after ready, 7ms

@@ -384,3 +384,279 @@ pid: 57531
 hostname: kuaimaopaodeMBP.lan
 
 2025-06-13 12:04:53,648 INFO 57531 [-/::1/-/240ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 17:45:58,215 ERROR 32086 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 32086
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:47:00,039 ERROR 32236 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 32236
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:47:13,414 INFO 32236 [-/::1/-/208ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 17:47:28,703 INFO 32236 [-/::1/-/62ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 17:49:37,241 ERROR 32376 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 32376
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 17:49:52,006 INFO 32376 [-/127.0.0.1/-/185ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 18:18:58,734 ERROR 33006 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 33006
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 18:21:30,593 ERROR 33077 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 33077
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 18:23:28,172 ERROR 33296 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 33296
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 18:23:38,365 INFO 33296 [-/127.0.0.1/-/10ms GET /api/users] Request started { path: '/api/users',
+  method: 'GET',
+  traceparent: '00-000000000000000032b049cf4aab3eed-2ecf59a1320fb372-01' }
+2025-06-17 18:23:38,553 INFO 33296 [-/127.0.0.1/-/199ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 18:23:38,605 INFO 33296 [-/127.0.0.1/-/249ms GET /api/users] Request ended { path: '/api/users',
+  method: 'GET',
+  status: 200,
+  traceparent: '00-000000000000000032b049cf4aab3eed-2ecf59a1320fb372-01' }
+2025-06-17 18:25:57,578 ERROR 33471 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 33471
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:11:20,859 ERROR 33987 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 33987
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:13:32,745 ERROR 34092 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 34092
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:13:38,630 ERROR 34103 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 34103
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:14:26,729 ERROR 34159 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 34159
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:51:06,976 ERROR 35418 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35418
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:52:33,413 INFO 35418 [-/127.0.0.1/-/11ms GET /api/users] Request started { path: '/api/users',
+  method: 'GET',
+  traceId: '000000000000000032b049cf4aab3eed',
+  spanId: '2ecf59a1320fb372' }
+2025-06-17 19:52:33,631 INFO 35418 [-/127.0.0.1/-/230ms GET /api/users] 获取用户列表，页码: 1, 页大小: 10
+2025-06-17 19:52:33,692 INFO 35418 [-/127.0.0.1/-/290ms GET /api/users] Request ended { path: '/api/users',
+  method: 'GET',
+  status: 200,
+  traceId: '000000000000000032b049cf4aab3eed',
+  spanId: '2ecf59a1320fb372' }
+2025-06-17 19:55:29,617 ERROR 35620 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35620
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 19:59:52,273 ERROR 35742 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35742
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 20:00:11,404 ERROR 35777 [-/127.0.0.1/-/1ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35777
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 20:00:17,875 ERROR 35787 [-/127.0.0.1/-/1ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35787
+hostname: kuaimaopaodeMBP.lan
+
+2025-06-17 20:00:40,352 ERROR 35876 [-/127.0.0.1/-/0ms GET /] nodejs.Error: options.uri is a required argument
+    at Request.init (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:231:31)
+    at new Request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/request.js:127:8)
+    at request (/Users/flashcat/JavaScript/eggjs1/node_modules/request/index.js:53:10)
+    at Promise (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:5:5)
+    at new Promise (<anonymous>)
+    at default_1 (/Users/flashcat/JavaScript/eggjs1/app/service/request.ts:4:10)
+    at getExports (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at ContextLoader.parse (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at ContextLoader.load (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToContext (/Users/flashcat/JavaScript/eggjs1/node_modules/egg-core/lib/loader/egg_loader.js:419:28)
+
+pid: 35876
+hostname: kuaimaopaodeMBP.lan
+

@@ -291,6 +291,7 @@
         "consoleLevel": "WARN"
       },
       "allowDebugAtProd": false,
+      "formatter": "<Function formatter>",
       "type": "agent"
     },
     "httpclient": {
@@ -338,7 +339,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "traceLogger"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"

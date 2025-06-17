@@ -8,11 +8,23 @@ export default (appInfo: EggAppInfo) => {
   config.keys = appInfo.name + '_1234567890';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['traceLogger'];
 
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
+    // 日志配置
+    logger: {
+      // 自定义日志格式会打印在logs/egg-web.log 中
+      formatter(meta) {
+        const { ctx } = meta;
+        const traceparent = ctx?.request?.headers?.traceparent || '-';
+        const traceparentArray = Array.isArray(traceparent) ? traceparent : traceparent.split('-');
+        const traceID = traceparentArray[1] || '';
+        const spanID = traceparentArray[2] || '';
+        return `[${meta.date}] ${meta.level} ${meta.pid} ${traceID} ${spanID} ${meta.message}`;
+      },
+    },
   };
 
   return {

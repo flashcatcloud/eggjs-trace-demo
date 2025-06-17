@@ -2,6 +2,7 @@
   "keys": "/Users/flashcat/JavaScript/eggjs1/config/config.default.ts",
   "middleware": "/Users/flashcat/JavaScript/eggjs1/config/config.default.ts",
   "logger": {
+    "formatter": "/Users/flashcat/JavaScript/eggjs1/config/config.default.ts",
     "level": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
     "consoleLevel": "/Users/flashcat/JavaScript/eggjs1/config/config.local.ts",
     "dir": "/Users/flashcat/JavaScript/eggjs1/node_modules/egg/config/config.default.js",
