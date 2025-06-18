@@ -15,7 +15,7 @@ export default (appInfo: EggAppInfo) => {
     // myAppName: 'egg',
     // 日志配置
     logger: {
-      // 自定义日志格式会打印在logs/egg-web.log 中
+      // 自定义日志格式会打印在logs/cc-server-in-api-web.log 中
       formatter(meta) {
         const { ctx } = meta;
         const traceparent = ctx?.request?.headers?.traceparent || '-';

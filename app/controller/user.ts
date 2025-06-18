@@ -1,6 +1,7 @@
 import { Controller } from 'egg';
 import opentelemetry,{Span} from '@opentelemetry/api';
 import { mysqlQuery } from '../service/mysql';
+import { createMongoClient } from '../service/mongo';
 import request from '../service/request';
 const tracer = opentelemetry.trace.getTracer(
   'guguji9',
@@ -43,16 +44,23 @@ export default class UserController extends Controller {
       "SELECT tags FROM TagAndDescription limit 10"
     )
 
+    const client = await createMongoClient()
+    const database = client.db("event")
+    const alertTable = database.collection(
+      "c_alert_0"
+    )
+    const mongoRes = await alertTable.find({ account_id:2451002751131 }).count()
+    await client.close()
+
     const result = await ctx.service.user.getUserList(
       parseInt(page as string), 
       parseInt(pageSize as string)
     );
-
     const res2 = await request({uri:'http://10.99.1.223:8081/roll',method:'GET'})
     
     ctx.body = {
       code: 0,
-      data: {result, res, res2},
+      data: {result, res, res2, mongoRes},
       message: '获取成功',
     };
   }

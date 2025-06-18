@@ -8,6 +8,7 @@ const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumenta
 // getNodeAutoInstrumentations 内置大部分常见插件的追踪能力， 但是未支持redis，如果我们代码中有redis的调用，需要显示的引用并初始化redis追踪
 const { RedisInstrumentation } = require('@opentelemetry/instrumentation-redis');
 const { MySQLInstrumentation } = require('@opentelemetry/instrumentation-mysql');
+const { MongoDBInstrumentation } = require('@opentelemetry/instrumentation-mongodb');
 
 // 声明资源属性：指定 service.name
 const resource = new Resource({
@@ -27,7 +28,8 @@ const sdk = new NodeSDK({
   instrumentations: [
     getNodeAutoInstrumentations(),
     new RedisInstrumentation(),
-    new MySQLInstrumentation()
+    new MySQLInstrumentation(),
+    new MongoDBInstrumentation({})
   ]
 });
 
