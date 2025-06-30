@@ -2,6 +2,7 @@
 
 const { NodeSDK } = require('@opentelemetry/sdk-node');
 const { Resource } = require('@opentelemetry/resources');
+const { diag, DiagConsoleLogger, DiagLogLevel } = require('@opentelemetry/api');
 const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');
 const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
@@ -21,7 +22,7 @@ const traceExporter = new OTLPTraceExporter({
         // url: 'http://10.201.0.210:4318/v1/traces'  // 也可以使用http 协议上报
   // 如需指定，可以传入 credentials 和 url（grpc-js 模式）
 });
-
+diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.ALL);
 const sdk = new NodeSDK({
   resource,
   traceExporter,

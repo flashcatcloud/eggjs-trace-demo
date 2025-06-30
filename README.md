@@ -49,10 +49,31 @@ curl 'http://localhost:7001/api/users' \
 上访traceparent为RUM生成，在Flashcat的链路检索中，可以查询 **000000000000000032b049cf4aab3e2d** 即可查询处理
 
 
-## 6.30 问题排查
+## 6.30 问题排查 1
 
 问：Post请求在Trace中无体现
 
 我在本demo中做了一个post接口测试了一下，可以展示
 
 **视频地址：https://c9xudyniiq.feishu.cn/file/PYIHbJPEDoptA4xcEirczcNcnSg**
+
+
+## 6.30 问题排查 2
+
+问：如何打开nodejs项目中的trace日志？因为请求后，在trace中查询不出来
+
+参考链接：https://opentelemetry.io/docs/languages/js/getting-started/nodejs/#troubleshooting
+
+日志中可以打印出来traceid
+![https://i.imgur.com/GwPYi6f.png](image.png)
+
+根据该id，可以在flashcat 中查询出来，，maybe 延迟1分钟左右
+![https://i.imgur.com/RCL3PMZ.png](image-1.png)
+
+
+
+
+
+
+
+
