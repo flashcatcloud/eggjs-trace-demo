@@ -8,7 +8,8 @@ export default (appInfo: EggAppInfo) => {
   config.keys = appInfo.name + '_1234567890';
 
   // add your middleware config here
-  config.middleware = ['traceLogger'];
+  // config.middleware = ['traceLogger'];
+  config.middleware = [];
 
   // add your user config here
   const userConfig = {
