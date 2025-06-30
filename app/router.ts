@@ -10,4 +10,5 @@ export default (app: Application) => {
   // 用户相关接口
   router.get('/api/users', 'user.index');
   router.get('/api/users/:id', 'user.show');
+  router.post('/api/users', 'user.create');
 }; 

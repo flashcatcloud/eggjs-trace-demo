@@ -47,3 +47,12 @@ curl 'http://localhost:7001/api/users' \
 ```
 
 上访traceparent为RUM生成，在Flashcat的链路检索中，可以查询 **000000000000000032b049cf4aab3e2d** 即可查询处理
+
+
+## 6.30 问题排查
+
+问：Post请求在Trace中无体现
+
+我在本demo中做了一个post接口测试了一下，可以展示
+
+**视频地址：https://c9xudyniiq.feishu.cn/file/PYIHbJPEDoptA4xcEirczcNcnSg**

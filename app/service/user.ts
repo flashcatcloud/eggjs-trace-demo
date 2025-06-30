@@ -56,4 +56,34 @@ export default class UserService extends Service {
       pageSize,
     };
   }
+
+  public async createUser(userData: any): Promise<any> {
+    const { ctx } = this;
+    ctx.logger.info(`创建新用户，数据: ${JSON.stringify(userData)}`);
+    
+    // 模拟用户ID生成（实际项目中应该使用数据库自增ID或UUID）
+    const userId = Date.now();
+    
+    // 构建新用户对象
+    const newUser = {
+      id: userId,
+      name: userData.name,
+      email: userData.email,
+      phone: userData.phone || null,
+      avatar: userData.avatar || null,
+      status: userData.status || 'active',
+      createTime: new Date().toISOString(),
+      updateTime: new Date().toISOString(),
+    };
+
+    // 这里可以添加数据库插入逻辑
+    // 例如：await this.ctx.model.User.create(newUser);
+    
+    // 模拟数据库操作延迟
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    ctx.logger.info(`用户创建成功，ID: ${userId}`);
+    
+    return newUser;
+  }
 } 
