@@ -340,9 +340,7 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [
-      "traceLogger"
-    ],
+    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
