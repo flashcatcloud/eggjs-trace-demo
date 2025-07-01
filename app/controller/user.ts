@@ -2,7 +2,6 @@ import { Controller } from 'egg';
 import opentelemetry,{Span} from '@opentelemetry/api';
 import { mysqlQuery } from '../service/mysql';
 import { createMongoClient } from '../service/mongo';
-// import request from '../service/request';
 const tracer = opentelemetry.trace.getTracer(
   'guguji9',
   '1.0.0',
@@ -56,7 +55,7 @@ export default class UserController extends Controller {
       parseInt(page as string), 
       parseInt(pageSize as string)
     );
-    // const res2 = await request({uri:'http://10.99.1.223:8081/roll',method:'GET'})
+    // const res2 = await ctx.service.request.makeRequest({uri:'http://10.99.1.223:8081/roll',method:'GET'})
     
     ctx.body = {
       code: 0,
