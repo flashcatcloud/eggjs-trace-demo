@@ -1,4 +1,5 @@
 node_modules
 logs/cc-server-in-api
 application_timing_*.json
+run/*
 run/
