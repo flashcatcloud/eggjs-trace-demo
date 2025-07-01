@@ -13,7 +13,7 @@ const { MongoDBInstrumentation } = require('@opentelemetry/instrumentation-mongo
 
 // 声明资源属性：指定 service.name
 const resource = new Resource({
-  [SemanticResourceAttributes.SERVICE_NAME]: 'nodejs10-demo-6-30', // 重要：自定义服务名，便于区分服务，也可以通过环境变量传入
+  [SemanticResourceAttributes.SERVICE_NAME]: 'nodejs10-demo-7-1', // 重要：自定义服务名，便于区分服务，也可以通过环境变量传入
   // 也可继续加 service.version、deployment.environment 等
 });
 // 使用 OTLP over gRPC 导出器
@@ -22,7 +22,8 @@ const traceExporter = new OTLPTraceExporter({
         // url: 'http://10.201.0.210:4318/v1/traces'  // 也可以使用http 协议上报
   // 如需指定，可以传入 credentials 和 url（grpc-js 模式）
 });
-diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.ALL);
+// 设置日志级别
+diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
 const sdk = new NodeSDK({
   resource,
   traceExporter,
